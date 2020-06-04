@@ -1,0 +1,65 @@
+.team-member {
+  height: 300px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  position: relative;
+  margin: 20px 40px;
+}
+
+.team-member__image {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+}
+
+.team-member__name {
+  font-family: "open_sansregular";
+  color: #452e76;
+  font-size: 20px;
+}
+.team-member__email {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-image: url("../../assets/images/Elipsa\ 990.png");
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-member__envelope {
+  background-image: url("../../assets/images/Mail\ closed.png");
+  width: 17px;
+  height: 12px;
+}
+
+.team-member__description {
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+.team-member__job {
+  font-family: "open_sanslight";
+  font-size: 14px;
+  color: #48c3dc;
+  padding-bottom: 10px;
+  line-height: 1.2;
+}
+
+.team-member__location {
+  font-family: "open_sanslight";
+  font-size: 14px;
+  color: #808080;
+  
+}
