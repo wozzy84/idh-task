@@ -10,12 +10,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-id-swiper": "^3.0.0",
+    "react-modal": "^3.11.2",
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "reset-css": "^5.0.1",
-    "shortid": "^2.2.15",
     "swiper": "^5.4.1"
   },
   "scripts": {
